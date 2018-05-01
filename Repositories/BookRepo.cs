@@ -4,10 +4,10 @@ using TheBookCave.Data;
 using TheBookCave.Models.ViewModels;
 
 namespace TheBookCave.Repositories
-{    public class BookRepo
+{   
+    public class BookRepo
     {
         private DataContext _db;
-
         public BookRepo()
         {
             _db = new DataContext();
@@ -20,13 +20,11 @@ namespace TheBookCave.Repositories
                         {
                             Id = a.Id,
                             Title = a.Title
+        
                         }).ToList();
-
-
             return books;
         }
     }
-
 }
 
 

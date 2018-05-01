@@ -2,7 +2,7 @@ namespace TheBookCave.Models.EntityModels
 {
     public class Book
     {   
-        /// Bok tharf ad hafa ID
+        /// Bok tharf ad hafa ID. Gagnagrunnur gefur Id
         public int Id { get; set; }
         
         /// Bok tharf ad ISBN numer
@@ -16,6 +16,8 @@ namespace TheBookCave.Models.EntityModels
         
         /// Bok tharf ad hafa bokaflokk
         public string Genre { get; set; }
+       
+        /// Bok tharf ad hafa rating. 0 til 5
         public string Rating{ get; set; }
         
         /// Bok tharf ad hafa bokakapu
