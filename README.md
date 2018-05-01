@@ -95,3 +95,5 @@ https://balsamiq.cloud/sjt0rkt/pgjc7mz
 http://johnpanzer.com/ucscx-oop-java-winter01/BookstoreExample2/BookstoreExample2.jpg
 
 https://www.mikesdotnetting.com/article/114/jquery-star-rating-with-asp-net-mvc
+
+https://gist.github.com/indyfromoz/4109296    
